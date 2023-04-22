@@ -12,3 +12,12 @@ puts "Entre com o número"
 chute = gets
 puts "Será que acertou? Você chutou " + chute
 puts 175 == chute.to_i
+
+# Acertei ou não?
+acertou = numero_secreto == chute.to_i
+
+if acertou
+  puts "Acertou!"
+else 
+  puts "Errou!"
+end
